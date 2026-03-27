@@ -9,6 +9,7 @@ import lifestyle2 from "@/assets/lifestyle-2.jpg";
 import collectionSummer from "@/assets/collection-summer.jpg";
 import collectionEssentials from "@/assets/collection-essentials.jpg";
 import { useState } from "react";
+import LinenGallery from "@/components/LinenGallery";
 
 const Index = () => {
   const [email, setEmail] = useState("");
@@ -217,25 +218,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Instagram Gallery */}
-      <section className="py-20 lg:py-28">
-        <div className="container mx-auto px-6 lg:px-12 text-center mb-10">
-          <p className="luxury-subheading text-xs text-muted-foreground mb-3">@VALMOUNT</p>
-          <h2 className="luxury-heading text-2xl">Follow Our World</h2>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
-          {products.map((p) => (
-            <a key={p.id} href="#" className="group relative block aspect-square overflow-hidden">
-              <img
-                src={p.image}
-                alt={p.name}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors duration-300" />
-            </a>
-          ))}
-        </div>
-      </section>
+      {/* Pastel Linen Shirt Gallery */}
+      <LinenGallery />
     </div>
   );
 };
