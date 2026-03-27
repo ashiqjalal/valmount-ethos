@@ -49,7 +49,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link to="/" className="luxury-heading text-xl lg:text-2xl font-semibold text-foreground tracking-[0.2em]">
-            VALMOUNT
+            CAVELLONE
           </Link>
 
           {/* Nav links right */}

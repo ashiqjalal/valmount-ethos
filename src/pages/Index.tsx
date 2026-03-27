@@ -19,7 +19,7 @@ const Index = () => {
     <div>
       {/* Hero */}
       <section className="relative h-screen">
-        <img src={heroImage} alt="VALMOUNT luxury fashion" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={heroImage} alt="CAVELLONE luxury fashion" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/60 via-foreground/30 to-transparent" />
         <div className="relative h-full flex items-center">
           <div className="container mx-auto px-6 lg:px-12">
@@ -58,12 +58,12 @@ const Index = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="luxury-divider mb-8" />
-            <p className="luxury-subheading text-xs text-muted-foreground mb-6">The VALMOUNT Philosophy</p>
+            <p className="luxury-subheading text-xs text-muted-foreground mb-6">The CAVELLONE Philosophy</p>
             <h2 className="font-heading text-2xl lg:text-3xl mb-6 leading-relaxed">
               Where Heritage Meets<br />Contemporary Refinement
             </h2>
             <p className="luxury-body text-muted-foreground">
-              Founded on the principle that true luxury lies in subtlety, VALMOUNT creates garments that speak through quality, not volume. Each piece is a quiet declaration of impeccable taste.
+              Founded on the principle that true luxury lies in subtlety, CAVELLONE creates garments that speak through quality, not volume. Each piece is a quiet declaration of impeccable taste.
             </p>
           </motion.div>
         </div>
@@ -136,7 +136,7 @@ const Index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src={lifestyle1} alt="VALMOUNT lifestyle" className="w-full aspect-[4/3] object-cover" />
+              <img src={lifestyle1} alt="CAVELLONE lifestyle" className="w-full aspect-[4/3] object-cover" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 30 }}
@@ -150,7 +150,7 @@ const Index = () => {
                 Crafted for Those Who<br />Appreciate the Finer Things
               </h2>
               <p className="luxury-body text-muted-foreground mb-8">
-                Every VALMOUNT piece is a testament to meticulous craftsmanship. From the selection of the finest natural fabrics to the precision of every stitch, we honor the traditions of European tailoring while embracing modern sensibilities.
+                Every CAVELLONE piece is a testament to meticulous craftsmanship. From the selection of the finest natural fabrics to the precision of every stitch, we honor the traditions of European tailoring while embracing modern sensibilities.
               </p>
               <Link
                 to="/about"
@@ -166,7 +166,7 @@ const Index = () => {
 
       {/* Lifestyle banner 2 */}
       <section className="relative h-[60vh] lg:h-[70vh]">
-        <img src={lifestyle2} alt="VALMOUNT Mediterranean" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={lifestyle2} alt="CAVELLONE Mediterranean" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/30" />
         <div className="relative h-full flex items-center justify-center text-center">
           <motion.div
@@ -192,7 +192,7 @@ const Index = () => {
       <section className="py-20 lg:py-28 bg-primary text-primary-foreground">
         <div className="container mx-auto px-6 lg:px-12 text-center max-w-lg">
           <p className="luxury-subheading text-xs text-primary-foreground/50 mb-3">Newsletter</p>
-          <h2 className="luxury-heading text-2xl mb-4">Stay in the World of VALMOUNT</h2>
+          <h2 className="luxury-heading text-2xl mb-4">Stay in the World of CAVELLONE</h2>
           <p className="luxury-body text-sm text-primary-foreground/60 mb-8">
             Be the first to discover new collections, exclusive offers, and stories of craftsmanship.
           </p>

@@ -31,7 +31,7 @@ const Shop = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <p className="luxury-subheading text-xs text-muted-foreground mb-3">VALMOUNT Collection</p>
+          <p className="luxury-subheading text-xs text-muted-foreground mb-3">CAVELLONE Collection</p>
           <h1 className="luxury-heading text-3xl lg:text-4xl">{title}</h1>
         </motion.div>
 

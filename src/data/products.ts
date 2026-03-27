@@ -26,7 +26,7 @@ export const products: Product[] = [
     category: "Polo Shirts",
     collection: "Essentials",
     image: poloNavy,
-    description: "Crafted from premium long-staple Egyptian cotton piqué, this polo embodies quiet sophistication. The relaxed yet refined silhouette features mother-of-pearl buttons and a subtly embroidered VALMOUNT monogram.",
+    description: "Crafted from premium long-staple Egyptian cotton piqué, this polo embodies quiet sophistication. The relaxed yet refined silhouette features mother-of-pearl buttons and a subtly embroidered CAVELLONE monogram.",
     sizes: ["S", "M", "L", "XL", "XXL"],
     isBestSeller: true,
   },

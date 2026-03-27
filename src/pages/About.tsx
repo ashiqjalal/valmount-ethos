@@ -16,7 +16,7 @@ const About = () => {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <p className="luxury-subheading text-xs text-muted-foreground mb-3">Our Story</p>
-          <h1 className="luxury-heading text-3xl lg:text-4xl mb-6">About VALMOUNT</h1>
+          <h1 className="luxury-heading text-3xl lg:text-4xl mb-6">About CAVELLONE</h1>
           <div className="luxury-divider mb-8" />
           <p className="luxury-body text-muted-foreground">
             A luxury lifestyle fashion brand inspired by timeless European elegance and refined modern minimalism.
@@ -28,7 +28,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <img src={heroImage} alt="VALMOUNT heritage" className="w-full aspect-[21/9] object-cover" />
+          <img src={heroImage} alt="CAVELLONE heritage" className="w-full aspect-[21/9] object-cover" />
         </motion.div>
       </section>
 
@@ -46,7 +46,7 @@ const About = () => {
               Born from a Reverence<br />for European Tradition
             </h2>
             <p className="luxury-body text-muted-foreground mb-6">
-              VALMOUNT was founded with a singular vision: to create clothing that transcends trends and seasons. Drawing inspiration from the sun-washed villas of the Mediterranean, the tailoring houses of Milan, and the understated elegance of old European aristocracy.
+              CAVELLONE was founded with a singular vision: to create clothing that transcends trends and seasons. Drawing inspiration from the sun-washed villas of the Mediterranean, the tailoring houses of Milan, and the understated elegance of old European aristocracy.
             </p>
             <p className="luxury-body text-muted-foreground">
               Every garment is conceived as an heirloom — crafted from the world's finest natural materials and finished with the precision of master artisans. We believe that true luxury is felt, not displayed.
@@ -58,7 +58,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <img src={lifestyle2} alt="VALMOUNT inspiration" className="w-full aspect-[4/3] object-cover" />
+            <img src={lifestyle2} alt="CAVELLONE inspiration" className="w-full aspect-[4/3] object-cover" />
           </motion.div>
         </div>
       </section>
@@ -68,7 +68,7 @@ const About = () => {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
             <p className="luxury-subheading text-xs text-muted-foreground mb-3">Our Values</p>
-            <h2 className="luxury-heading text-2xl lg:text-3xl">The VALMOUNT Standard</h2>
+            <h2 className="luxury-heading text-2xl lg:text-3xl">The CAVELLONE Standard</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[

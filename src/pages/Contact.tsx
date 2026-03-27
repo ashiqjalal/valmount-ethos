@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             {[
               { icon: MapPin, label: "Visit Us", value: "12 Rue du Faubourg, Paris, France" },
-              { icon: Mail, label: "Email", value: "contact@valmount.com" },
+              { icon: Mail, label: "Email", value: "contact@cavellone.com" },
               { icon: Phone, label: "Phone", value: "+33 1 42 00 00 00" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex gap-4">
