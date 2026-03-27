@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div>
-            <h3 className="luxury-heading text-lg mb-6 tracking-[0.2em]">VALMOUNT</h3>
+            <h3 className="luxury-heading text-lg mb-6 tracking-[0.2em]">CAVELLONE</h3>
             <p className="luxury-body text-sm text-primary-foreground/70 leading-relaxed">
               A luxury lifestyle fashion brand inspired by timeless European elegance and refined modern minimalism.
             </p>
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 text-center">
           <p className="text-xs font-body font-light text-primary-foreground/40 tracking-wider">
-            © {new Date().getFullYear()} VALMOUNT. All rights reserved.
+            © {new Date().getFullYear()} CAVELLONE. All rights reserved.
           </p>
         </div>
       </div>
