@@ -9,6 +9,7 @@ import lifestyle2 from "@/assets/lifestyle-2.jpg";
 import collectionSummer from "@/assets/collection-summer.jpg";
 import collectionEssentials from "@/assets/collection-essentials.jpg";
 import { useState } from "react";
+import LinenGallery from "@/components/LinenGallery";
 
 const Index = () => {
   const [email, setEmail] = useState("");
